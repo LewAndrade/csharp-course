@@ -1,5 +1,5 @@
 ﻿using System;
-using ConsoleChess.Chessboard;
+using ConsoleChess.Table;
 
 namespace ConsoleChess
 {

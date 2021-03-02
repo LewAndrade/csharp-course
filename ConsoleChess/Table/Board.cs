@@ -1,4 +1,4 @@
-﻿namespace ConsoleChess.Chessboard
+﻿namespace ConsoleChess.Table
 {
     public class Board
     {
