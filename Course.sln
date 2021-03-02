@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 - Exceptions", "11 - Exceptions", "{025824FC-8929-4967-8959-F1DE70C4072A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelReservations", "HotelReservations\HotelReservations.csproj", "{F6E646C0-457A-4684-A1D0-A497F61C2EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "Bank\Bank.csproj", "{ED9BD402-0395-4B62-86C2-F5E7B69C233D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 - Chess", "12 - Chess", "{5BA33F85-3893-433C-A4CE-C36B1511B435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleChess", "ConsoleChess\ConsoleChess.csproj", "{D1B13E6F-0D06-461E-AA22-CF8607F24AD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6E646C0-457A-4684-A1D0-A497F61C2EE6} = {025824FC-8929-4967-8959-F1DE70C4072A}
+		{ED9BD402-0395-4B62-86C2-F5E7B69C233D} = {025824FC-8929-4967-8959-F1DE70C4072A}
+		{D1B13E6F-0D06-461E-AA22-CF8607F24AD0} = {5BA33F85-3893-433C-A4CE-C36B1511B435}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6E646C0-457A-4684-A1D0-A497F61C2EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E646C0-457A-4684-A1D0-A497F61C2EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E646C0-457A-4684-A1D0-A497F61C2EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E646C0-457A-4684-A1D0-A497F61C2EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9BD402-0395-4B62-86C2-F5E7B69C233D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9BD402-0395-4B62-86C2-F5E7B69C233D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9BD402-0395-4B62-86C2-F5E7B69C233D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9BD402-0395-4B62-86C2-F5E7B69C233D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B13E6F-0D06-461E-AA22-CF8607F24AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B13E6F-0D06-461E-AA22-CF8607F24AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B13E6F-0D06-461E-AA22-CF8607F24AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B13E6F-0D06-461E-AA22-CF8607F24AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
