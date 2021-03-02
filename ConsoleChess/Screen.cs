@@ -8,17 +8,33 @@ namespace ConsoleChess
         public static void DrawBoard(Board board)
         {
             Console.WriteLine("  a b c d e f g h ");
-            for (var i = 0; i < board.Rows; i++)
+            for (var row = 0; row < board.Rows; row++)
             {
-                Console.Write($"{8 - i} ");
-                for (var j = 0; j < board.Columns; j++)
+                Console.Write($"{8 - row} ");
+                for (var column = 0; column < board.Columns; column++)
                 {
-                    Console.Write(board.GetPiece(i, j) != null ? $"{board.GetPiece(i, j)} " : "- ");
+                    DrawSpace(row, column, board.GetPiece(row, column));
                 }
-                Console.Write($"{8 - i}");
-                Console.WriteLine();
+
+                Console.WriteLine($" {8 - row}");
             }
+
             Console.WriteLine("  a b c d e f g h ");
+        }
+
+        private static void DrawSpace(int row, int column, Piece piece)
+        {
+            Console.BackgroundColor = (row + column) % 2 == 0 ? ConsoleColor.Gray : ConsoleColor.DarkGray;
+
+            if (piece != null)
+            {
+                Console.ForegroundColor = (ConsoleColor) piece.Color;
+                Console.Write($"{piece} ");
+            }
+            else
+                Console.Write("  ");
+
+            Console.ResetColor();
         }
     }
 }
